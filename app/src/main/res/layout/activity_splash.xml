@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ecebf1"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:id="@+id/ImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/doitappicon" />
+    <TextView
+        android:id="@+id/ImageViewText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Today's Schedule"
+        android:textSize="32sp"
+        android:layout_below="@+id/ImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/opensanslight"
+        android:textColor="#404040"/>
+</RelativeLayout>
